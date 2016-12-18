@@ -1,0 +1,65 @@
+/* Generic Stylesheet
+ *
+ * Things for every page such as fonts, footer etc.
+ * Pretty much everything that's across every page. */
+
+@font-face
+{
+	font-family: "Liberation Sans";
+	src: url('../fonts/LiberationSans-Regular-webfont.eot') format('eot'),
+	     url('../fonts/LiberationSans-Regular-webfont.woff') format('woff'),
+	     url('../fontsLiberationSans-Regular-webfont.ttf') format('truetype'),
+	     url('../fonts/LiberationSans-Regular-webfont.svg') format('svg');
+}
+
+body
+{
+	font-family: "Liberation Sans", sans-serif;
+	font-size: 16px;
+}
+
+/* Footer styles */
+footer
+{
+		position: absolute;
+		bottom: 0;
+}
+
+footer a
+{
+	color: rgb(0,102,153);
+}
+
+/* End footer styles */
+.mainHeader img
+{
+	display: block;
+	margin-right: auto;
+	width: 400px;
+	height: 200px;
+}
+
+.secondaryHeader img
+{
+	display:block;
+	margin-right: auto;
+	height: 200px;
+	width: 300px;
+}
+
+/* iframe styles */
+.ratingTool iframe
+{
+ margin-top: 10px;
+ float: left;
+ width: 760px;
+ height: 450px;
+}
+
+.chickens iframe
+{
+ margin-top: 10px;
+ float: left;
+ width: 760px;
+ height: 450px;
+}

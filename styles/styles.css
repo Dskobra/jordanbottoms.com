@@ -1,0 +1,83 @@
+/* Main Stylesheet
+ *
+ * Main stylesheet. */
+
+/* Start Body Styles */
+body
+{
+	background-color: rgb(0,51,0) ;
+	font-size: 100%;
+	color: rgb(0,102,153);
+	text-align: left;
+	width: 1024px;
+	height: 768px;
+}
+/* End Body Styles */
+
+/* Start Nav Styles*/
+
+.navBar li
+{
+	float: left;
+	text-align: left;
+	width: 20%;
+	list-style: none;
+	line-height: 2.2em;
+	display: block;
+}
+
+.navBar li a
+{
+	color: rgb(0,102,153);
+}
+
+.navBar li a:hover
+{
+	color: white;
+}
+nav a
+{
+	text-decoration: none;
+}
+
+/* End Nav Styles */
+
+
+/* Start Site Map Styles */
+
+.siteMap
+{
+	margin-top: 100px;
+}
+
+.siteMap a
+{
+	color: rgb(0,102,153);
+}
+
+/* End Site Map Styles */
+
+/* Start Resource Styles */
+.resourcesContent
+{
+	margin-top: 100px;
+}
+
+.resourcesContent li a
+{
+		color: rgb(0,102,153);
+}
+
+.resourcesContent ul
+{
+	list-style-type: none;
+}
+/* End Resoruce Styles */
+
+/* Start Contact Styles */
+.contactContent
+{
+	margin-top: 100px;
+}
+
+/* End Contact Styles */

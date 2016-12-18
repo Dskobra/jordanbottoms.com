@@ -1,0 +1,127 @@
+/* Obsolete styles. Now use styles.css */
+
+
+/* Start About Menu Styles */
+/*.aboutMenu
+{
+
+}
+.aboutMenu li
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+	list-style: none;
+	line-height: 2.2em;
+	display: block;
+}
+
+.aboutMenu li a
+{
+	color: rgb(0,102,153);
+}
+
+.aboutMenu li a:hover
+{
+	color: white;
+}
+*/
+.aboutContent
+{
+	margin-top: 100px;
+	text-align: left;
+}
+
+/* End About Menu Styles */
+
+.resourcesContent
+{
+	margin-top: 300px;
+}
+
+/* Start Site Map Styles */
+
+.siteMap
+{
+	margin-top: 100px;
+}
+
+.siteMap a
+{
+	color: rgb(0,102,153);
+}
+
+/* End Site Map Styles */
+
+/* Start Contact Menu Styles */
+
+.contactMenu li
+{
+	float: left;
+	text-align: center;
+	width: 20%;
+	list-style: none;
+	line-height: 2.2em;
+	display: block;
+}
+
+.contactMenu li a
+{
+	color: rgb(0,102,153);
+}
+
+.contactMenu li a:hover
+{
+	color: white;
+}
+
+.contactContent
+{
+	margin-top: 100px;
+}
+/* End Contact Menu Styles */
+
+/* Start Rating Styles */
+
+.ratingtMenu li
+{
+	float: left;
+	text-align: left;
+	width: 20%;
+	list-style: none;
+	line-height: 2.2em;
+	display: block;
+}
+
+.ratingtMenu li a
+{
+	color: rgb(0,102,153);
+}
+
+.ratingtMenu li a:hover
+{
+	color: white;
+}
+
+.ratingContent
+{
+	margin-top: 100px;
+}
+
+/* End Rating Styles */
+
+/* Resource Page Styles */
+.resourcesContent
+{
+	margin-top: 100px;
+}
+
+.resourcesContent li a
+{
+		color: rgb(0,102,153);
+}
+
+.resourcesContent ul
+{
+	list-style-type: none;
+}
