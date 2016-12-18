@@ -38,28 +38,3 @@ footer a
 	width: 400px;
 	height: 200px;
 }
-
-.secondaryHeader img
-{
-	display:block;
-	margin-right: auto;
-	height: 200px;
-	width: 300px;
-}
-
-/* iframe styles */
-.ratingTool iframe
-{
- margin-top: 10px;
- float: left;
- width: 760px;
- height: 450px;
-}
-
-.chickens iframe
-{
- margin-top: 10px;
- float: left;
- width: 760px;
- height: 450px;
-}
