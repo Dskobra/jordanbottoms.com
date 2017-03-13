@@ -29,19 +29,19 @@ function getBrowserVersion(){
 	var browserVersion = getBrowserVersion();
 		
 	if (browserName == "MSIE"){
-			document.write("IE is not supported");
+			location.replace("unsupported.html");
 		} else if (browserName == "Firefox"){
-			document.write("Firefox is fully supported");
+			//
 		} else if (browserName == "Chrome"){
-			document.write("Chrome is fully supported");
+			//
 		} else if (browserName == "Opera"){
-			document.write("Opera is not supported");
+			location.replace("unsupported.html");
 		} else {
-			document.write("Sorry this browser version is not supported");
+			location.replace("unsupported.html");
 		}
 		
 		
 function checkEdge(){ 
 	if (/Edge\/\d./i.test(navigator.userAgent)){
-   window.alert('Microsoft Edge');
+   location.replace("unsupported.html");
 }}
