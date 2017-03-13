@@ -5,10 +5,9 @@
 /* Start Body Styles */
 body
 {
-	background-image: url("background.png");
+	background-image: url("5.png");
 	background-repeat: no-repeat;
-	 background-attachment: fixed;
-	background-position: center;
+	background-size: 100%;
 	font-size: 100%;
 	color: black;
 	text-align: left;
