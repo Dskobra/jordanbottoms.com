@@ -18,6 +18,13 @@ body
 
 /* Start Nav Styles*/
 
+.navTB{
+	float: left;
+	border: 5px dotted black;
+	border-collapse: collapse;
+	font-size: 24px;
+	margin-top: 100px;
+}
 .navBar 
 {
 	float: left;
@@ -83,3 +90,14 @@ nav a
 }
 
 /* End Contact Styles */
+
+
+/* Heading Styles */
+h2{
+	text-align: center;
+}
+
+/* End Heading styles */
+.content{
+	text-align: center;
+}
