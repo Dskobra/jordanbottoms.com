@@ -3,8 +3,7 @@
  * Main stylesheet. */
 
 /* Start Body Styles */
-body
-{
+body{
 	background-color: rgb(240,240,224);
 	font-size: 100%;
 	color: black;
@@ -24,56 +23,25 @@ body
 	margin-top: 100px;
 	text-align: left;
 }
-.navBar 
-{
-	float: left;
-	text-align: left;
-	width: 20%;
-	list-style: none;
-	line-height: 2.2em;
-	display: block;
-}
-
-.navBar li a
-{
-	color: rgb(0,102,153);
-}
-
-.navBar li a:hover
-{
-	color: red;
-}
-nav a
-{
-	text-decoration: none;
-}
-
-/* End Nav Styles */
-
-
 /* Start Site Map Styles */
 
-.siteMap
-{
+.siteMap{
 	margin-top: 100px;
 	text-align: center;
 }
 
-.siteMap a
-{
+.siteMap a{
 	color: rgb(0,102,153);
 }
 
 /* End Site Map Styles */
 
 /* Start Resource Styles */
-.resourcesContent
-{
+.resourcesContent{
 	margin-top: 100px;
 }
 
-.resourcesContent li a
-{
+.resourcesContent li a{
 		color: rgb(0,102,153);
 }
 
@@ -84,8 +52,7 @@ nav a
 /* End Resoruce Styles */
 
 /* Start Contact Styles */
-.contactContent
-{
+.contactContent{
 	margin-top: 100px;
 }
 
@@ -100,4 +67,8 @@ h2{
 /* End Heading styles */
 .content{
 	text-align: center;
+}
+
+p{
+	font-size: 5;
 }
