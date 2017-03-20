@@ -5,9 +5,7 @@
 /* Start Body Styles */
 body
 {
-	background-image: url("../img/background.png");
-	background-repeat: no-repeat;
-	background-size: 100%;
+	background-color: rgb(240,240,224);
 	font-size: 100%;
 	color: black;
 	text-align: center;
