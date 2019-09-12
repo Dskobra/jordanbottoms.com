@@ -9,8 +9,6 @@ function getBrowserName(){
 			return "Chrome";
 		} else if(isBrowser.indexOf("Safari")  >= 0){
 			return "Safari";
-		} else if(isBrowser.indexOf("Opera")  >= 0){
-			return "Opera";
 		} else {
 			return "UNKNOWN";
 			}
@@ -34,8 +32,6 @@ function getBrowserVersion(){
 			//
 		} else if (browserName == "Chrome"){
 			//
-		} else if (browserName == "Opera"){
-			location.replace("unsupported.html");
 		} else {
 			location.replace("unsupported.html");
 		}
