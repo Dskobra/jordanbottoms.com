@@ -12,6 +12,8 @@
 	</head>
 
 	<body>
+        <h1 id="unsupportedBrowser"></h1>
+        <p id="supportedBrowsers"></p>
 		<header class="mainHeader">
 			<!-- <a href="index.html"><img src="images/logo.jpg" alt="click to home logo" title="Click for home page"></a> -->
 		<br>
@@ -30,7 +32,19 @@
 			<h2>Welcome</h2>
 			<p> Currently under construction
 			</p>
-			<script>checkEdge()</script>
+			<script>
+        if (browserName == "MSIE"){
+            document.getElementById("unsupportedBrowser").innerHTML = "Unsupported Browser Detected.";
+			document.getElementById("supportedBrowsers").innerHTML = "This website is only tested on Firefox and Chrome based browsers. Please consider using one of these for the best possible experience.";
+		} else if (browserName == "Firefox"){
+            //
+		} else if (browserName == "Chrome"){
+			//
+		} else {
+            document.getElementById("unsupportedBrowser").innerHTML = "Unsupported Browser Detected.";
+			document.getElementById("supportedBrowsers").innerHTML = "This website is only tested on Firefox and Chrome based browsers. Please consider using one of these for the best possible experience.";
+		}
+			</script>
 		</article>
 		</section>
 		<footer>

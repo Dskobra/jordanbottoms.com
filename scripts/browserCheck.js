@@ -25,19 +25,3 @@ function getBrowserVersion(){
 		
 	var browserName = getBrowserName();
 	var browserVersion = getBrowserVersion();
-		
-	if (browserName == "MSIE"){
-			location.replace("unsupported.html");
-		} else if (browserName == "Firefox"){
-			//
-		} else if (browserName == "Chrome"){
-			//
-		} else {
-			location.replace("unsupported.html");
-		}
-		
-		
-function checkEdge(){ 
-	if (/Edge\/\d./i.test(navigator.userAgent)){
-   location.replace("unsupported.html");
-}}
